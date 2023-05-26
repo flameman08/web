@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Store</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Web Store</h1>
+  </header>
+
+  <div class="container">
+    <div class="homepage-container" id="homepage">
+      <h1>Welcome to the Web Store Homepage!</h1>
+      <p>Discover our latest collection and shop now.</p>
+      <button id="go-to-store">Go to Web Store</button>
+    </div>
+
+    <div id="webstore" style="display: none;">
+      <div class="products">
+        <h2>Summer nights ver a. photocards set</h2>
+        <div class="product">
+          <img src="https://cdn.shopify.com/s/files/1/0102/3351/2032/products/IMG_6454_1024x1024.jpg?v=1618330168" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>₱250.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.etsystatic.com/28466473/r/il/f5e14b/3092067377/il_fullxfull.3092067377_kktp.jpg" alt="Product 2">
+          <h3>yes or yes (red) photocard set</h3>
+          <p>₱250.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="products">
+        <h2>Other Products</h2>
+        <div class="product">
+          <img src="https://th.bing.com/th?id=OIF.LvOydhiLMAwDjJ%2fzpzXVKA&pid=ImgDet&rs=1" alt="Product 3">
+          <h3>Twice candybong ver.3 infinity</h3>
+          <p>₱2500.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://cf.shopee.com.my/file/099995e9711b1aa8fb5fd3da4bf20613" alt="Product 4">
+          <h3>Twice candybong ver.2</h3>
+          <p>₱1500.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/originals/6c/01/b7/6c01b709f0756cfae658c87225d714b6.jpg" alt="Product 5">
+          <h3>bench sana photocard 5</h3>
+          <p>₱500.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="cart">
+        <h2>Cart</h2>
+        <ul class="cart-items">
+          <!-- Cart items will be dynamically added here using JavaScript -->
+        </ul>
+        <p>Total: ₱<span id="cart-total">0.00</span></p>
+        <button id="checkout">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
